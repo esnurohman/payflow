@@ -1,8 +1,7 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import HeroSection from "./Hero";
 import StatSection from "./Stat";
 import FeatureSection from "./Feature";
+import PreviewSection from "./Preview";
 
 export default function Home() {
   return (
@@ -10,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <StatSection />
       <FeatureSection />
+      <PreviewSection />
     </>
   );
 }

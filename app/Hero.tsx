@@ -7,13 +7,13 @@ export default function HeroSection() {
     <section className="min-h-screen flex items-center">
       <div className="container mx-auto px-6 md:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="lg:hidden">
+          <div className="lg:hidden w-32">
             <Image
               src="/assets/payflow.png"
               alt="Logo"
-              width={420}
-              height={420}
-              className="rounded-xl shadow-xl shadow-slate-400 mx-auto"
+              width={100}
+              height={100}
+              className="rounded-xl shadow-xl w-32 shadow-slate-400 mx-auto p-3"
               priority
             />
           </div>
